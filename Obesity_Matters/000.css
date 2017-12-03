@@ -1,0 +1,51 @@
+header {
+	height: 150px;
+	width: 1363px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+img {
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.nav-menu {
+   position: relative;
+   background:  #66DD00;
+   text-align: center;
+   font-size: 25px;
+}
+
+.dropdown {
+   display: table;
+}
+}
+.nav-menu ul li:hover > ul {
+   display: inline-block;
+}
+
+.sub-menu > ul > li:after {
+   content: "\25BC"; /*escaped unicode for the down arrow*/
+   font-size: .5em;
+   display: inline;
+   position: relative;
+}
+
+.sub-menu {
+   position: absolute;
+   display: table;
+   background: #77FF00;
+}
+
+li {
+   display: inline;
+   padding: 0 35px 0 35px;
+}
+
+.sub-menu {
+   position: absolute;
+   display: none;
+   background: #77FF00;
+}

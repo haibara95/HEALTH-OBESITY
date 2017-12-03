@@ -1,0 +1,51 @@
+#ddmenu {
+  display: block;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+  background: #66DD00;
+  border-radius: 6px;
+  outline: none;
+  font-weight: bold;
+  color: #8aa8bd;
+}
+
+#ddmenu li { 
+  display: block; 
+  position: relative; 
+  float: left; 
+  font-size: 25px; 
+  text-shadow: 1px 1px 0 #fff; 
+  border-right: 1px  
+}
+
+#ddmenu li a {
+  display: block;
+  float: left;
+  padding: 0 40px 0 40px;
+  line-height: 78px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#ddmenu li:hover > a { 
+  color: #7180a0; 
+  background: #77FF00; 
+}
+
+#ddmenu ul {
+  position: absolute;
+  top: 88px;
+  width: 290px;
+  padding: 0 20px 0 20px;
+  background: #66DD00;
+  margin: 0;
+  list-style: none;
+}
+
